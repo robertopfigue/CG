@@ -14,7 +14,6 @@ namespace CG.Infra.Persistence.Map
             builder.Property(x => x.Nome).HasMaxLength(30).IsRequired();
             builder.Property(x => x.Nivel).HasMaxLength(30).IsRequired();
             builder.Property(x => x.Ativo).IsRequired();
-            builder.Property(x => x.IdPessoa).IsRequired();
         }
     }
 }

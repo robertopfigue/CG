@@ -18,7 +18,6 @@ namespace CG.Infra.Persistence.Map
             builder.Property(x => x.Atual).HasDefaultValue(false).IsRequired();
             builder.Property(x => x.DataInicio).IsRequired();
             builder.Property(x => x.Ativo).IsRequired();
-            builder.Property(x => x.IdPessoa).IsRequired();
         }
     }
 }

@@ -32,6 +32,9 @@ namespace CG.Infra.Migrations
                     b.Property<bool>("Ativo")
                         .HasColumnType("bit");
 
+                    b.Property<Guid>("DadosPessoaId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<DateTime>("DataCriacao")
                         .HasColumnType("datetime2")
                         .HasColumnName("DataCriacao");
@@ -41,9 +44,6 @@ namespace CG.Infra.Migrations
 
                     b.Property<DateTime>("DataInicio")
                         .HasColumnType("datetime2");
-
-                    b.Property<Guid>("IdPessoa")
-                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Instituicao")
                         .IsRequired()
@@ -59,6 +59,8 @@ namespace CG.Infra.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("DadosPessoaId");
 
                     b.ToTable("Curso", (string)null);
                 });
@@ -81,7 +83,6 @@ namespace CG.Infra.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nome")
@@ -119,6 +120,9 @@ namespace CG.Infra.Migrations
                         .HasMaxLength(120)
                         .HasColumnType("nvarchar(120)");
 
+                    b.Property<Guid>("DadosPessoaId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<DateTime>("DataCriacao")
                         .HasColumnType("datetime2")
                         .HasColumnName("DataCriacao");
@@ -134,10 +138,9 @@ namespace CG.Infra.Migrations
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)");
 
-                    b.Property<Guid>("IdPessoa")
-                        .HasColumnType("uniqueidentifier");
-
                     b.HasKey("Id");
+
+                    b.HasIndex("DadosPessoaId");
 
                     b.ToTable("Experiencia", (string)null);
                 });
@@ -152,6 +155,9 @@ namespace CG.Infra.Migrations
                     b.Property<bool>("Ativo")
                         .HasColumnType("bit");
 
+                    b.Property<Guid>("DadosPessoaId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<DateTime>("DataCriacao")
                         .HasColumnType("datetime2")
                         .HasColumnName("DataCriacao");
@@ -161,10 +167,9 @@ namespace CG.Infra.Migrations
                         .HasMaxLength(300)
                         .HasColumnType("nvarchar(300)");
 
-                    b.Property<Guid>("IdPessoa")
-                        .HasColumnType("uniqueidentifier");
-
                     b.HasKey("Id");
+
+                    b.HasIndex("DadosPessoaId");
 
                     b.ToTable("Habilidade", (string)null);
                 });
@@ -179,12 +184,12 @@ namespace CG.Infra.Migrations
                     b.Property<bool>("Ativo")
                         .HasColumnType("bit");
 
+                    b.Property<Guid>("DadosPessoaId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<DateTime>("DataCriacao")
                         .HasColumnType("datetime2")
                         .HasColumnName("DataCriacao");
-
-                    b.Property<Guid>("IdPessoa")
-                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Nivel")
                         .IsRequired()
@@ -198,7 +203,64 @@ namespace CG.Infra.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("DadosPessoaId");
+
                     b.ToTable("Idioma", (string)null);
+                });
+
+            modelBuilder.Entity("CG.Domain.Entities.Curso", b =>
+                {
+                    b.HasOne("CG.Domain.Entities.DadosPessoa", "DadosPessoa")
+                        .WithMany("Cursos")
+                        .HasForeignKey("DadosPessoaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("DadosPessoa");
+                });
+
+            modelBuilder.Entity("CG.Domain.Entities.Experiencia", b =>
+                {
+                    b.HasOne("CG.Domain.Entities.DadosPessoa", "DadosPessoa")
+                        .WithMany("Experiencias")
+                        .HasForeignKey("DadosPessoaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("DadosPessoa");
+                });
+
+            modelBuilder.Entity("CG.Domain.Entities.Habilidade", b =>
+                {
+                    b.HasOne("CG.Domain.Entities.DadosPessoa", "DadosPessoa")
+                        .WithMany("Habilidades")
+                        .HasForeignKey("DadosPessoaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("DadosPessoa");
+                });
+
+            modelBuilder.Entity("CG.Domain.Entities.Idioma", b =>
+                {
+                    b.HasOne("CG.Domain.Entities.DadosPessoa", "DadosPessoa")
+                        .WithMany("Idiomas")
+                        .HasForeignKey("DadosPessoaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("DadosPessoa");
+                });
+
+            modelBuilder.Entity("CG.Domain.Entities.DadosPessoa", b =>
+                {
+                    b.Navigation("Cursos");
+
+                    b.Navigation("Experiencias");
+
+                    b.Navigation("Habilidades");
+
+                    b.Navigation("Idiomas");
                 });
 #pragma warning restore 612, 618
         }
