@@ -1,0 +1,15 @@
+C:\Users\rober\source\repos\CG\CG.IoC\bin\Debug\net6.0\CG.IoC.deps.json
+C:\Users\rober\source\repos\CG\CG.IoC\bin\Debug\net6.0\CG.IoC.dll
+C:\Users\rober\source\repos\CG\CG.IoC\bin\Debug\net6.0\CG.IoC.pdb
+C:\Users\rober\source\repos\CG\CG.IoC\bin\Debug\net6.0\CG.Application.dll
+C:\Users\rober\source\repos\CG\CG.IoC\bin\Debug\net6.0\CG.Application.pdb
+C:\Users\rober\source\repos\CG\CG.IoC\obj\Debug\net6.0\CG.IoC.csproj.AssemblyReference.cache
+C:\Users\rober\source\repos\CG\CG.IoC\obj\Debug\net6.0\CG.IoC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rober\source\repos\CG\CG.IoC\obj\Debug\net6.0\CG.IoC.AssemblyInfoInputs.cache
+C:\Users\rober\source\repos\CG\CG.IoC\obj\Debug\net6.0\CG.IoC.AssemblyInfo.cs
+C:\Users\rober\source\repos\CG\CG.IoC\obj\Debug\net6.0\CG.IoC.csproj.CoreCompileInputs.cache
+C:\Users\rober\source\repos\CG\CG.IoC\obj\Debug\net6.0\CG.IoC.csproj.CopyComplete
+C:\Users\rober\source\repos\CG\CG.IoC\obj\Debug\net6.0\CG.IoC.dll
+C:\Users\rober\source\repos\CG\CG.IoC\obj\Debug\net6.0\refint\CG.IoC.dll
+C:\Users\rober\source\repos\CG\CG.IoC\obj\Debug\net6.0\CG.IoC.pdb
+C:\Users\rober\source\repos\CG\CG.IoC\obj\Debug\net6.0\ref\CG.IoC.dll

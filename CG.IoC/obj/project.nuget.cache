@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8TPVPD5IB+pVPFD6az644HoCyvUcJCHI5eLhH/XrZYTOKE/3uTMbUi5MAghtFDkEExlxQRpL3n9eqZyAEwYw7A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rober\\source\\repos\\CG\\CG.IoC\\CG.IoC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rober\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

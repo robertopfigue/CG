@@ -1,0 +1,17 @@
+C:\Users\rober\source\repos\CG\CG.Infra\obj\Debug\net6.0\CG.Infra.csproj.AssemblyReference.cache
+C:\Users\rober\source\repos\CG\CG.Infra\obj\Debug\net6.0\CG.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rober\source\repos\CG\CG.Infra\obj\Debug\net6.0\CG.Infra.AssemblyInfoInputs.cache
+C:\Users\rober\source\repos\CG\CG.Infra\obj\Debug\net6.0\CG.Infra.AssemblyInfo.cs
+C:\Users\rober\source\repos\CG\CG.Infra\obj\Debug\net6.0\CG.Infra.csproj.CoreCompileInputs.cache
+C:\Users\rober\source\repos\CG\CG.Infra\bin\Debug\net6.0\CG.Infra.deps.json
+C:\Users\rober\source\repos\CG\CG.Infra\bin\Debug\net6.0\CG.Infra.dll
+C:\Users\rober\source\repos\CG\CG.Infra\bin\Debug\net6.0\CG.Infra.pdb
+C:\Users\rober\source\repos\CG\CG.Infra\bin\Debug\net6.0\CG.Domain.dll
+C:\Users\rober\source\repos\CG\CG.Infra\bin\Debug\net6.0\CG.Domain.pdb
+C:\Users\rober\source\repos\CG\CG.Infra\obj\Debug\net6.0\CG.Infra.csproj.CopyComplete
+C:\Users\rober\source\repos\CG\CG.Infra\obj\Debug\net6.0\CG.Infra.dll
+C:\Users\rober\source\repos\CG\CG.Infra\obj\Debug\net6.0\refint\CG.Infra.dll
+C:\Users\rober\source\repos\CG\CG.Infra\obj\Debug\net6.0\CG.Infra.pdb
+C:\Users\rober\source\repos\CG\CG.Infra\obj\Debug\net6.0\ref\CG.Infra.dll
+C:\Users\rober\source\repos\CG\CG.Infra\bin\Debug\net6.0\CG.Infra.runtimeconfig.json
+C:\Users\rober\source\repos\CG\CG.Infra\obj\Debug\net6.0\CG.Infra.genruntimeconfig.cache

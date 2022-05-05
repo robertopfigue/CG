@@ -1,0 +1,12 @@
+C:\Users\rober\source\repos\CG\CG.Domain\bin\Debug\net6.0\CG.Domain.deps.json
+C:\Users\rober\source\repos\CG\CG.Domain\bin\Debug\net6.0\CG.Domain.dll
+C:\Users\rober\source\repos\CG\CG.Domain\bin\Debug\net6.0\CG.Domain.pdb
+C:\Users\rober\source\repos\CG\CG.Domain\obj\Debug\net6.0\CG.Domain.csproj.AssemblyReference.cache
+C:\Users\rober\source\repos\CG\CG.Domain\obj\Debug\net6.0\CG.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rober\source\repos\CG\CG.Domain\obj\Debug\net6.0\CG.Domain.AssemblyInfoInputs.cache
+C:\Users\rober\source\repos\CG\CG.Domain\obj\Debug\net6.0\CG.Domain.AssemblyInfo.cs
+C:\Users\rober\source\repos\CG\CG.Domain\obj\Debug\net6.0\CG.Domain.csproj.CoreCompileInputs.cache
+C:\Users\rober\source\repos\CG\CG.Domain\obj\Debug\net6.0\CG.Domain.dll
+C:\Users\rober\source\repos\CG\CG.Domain\obj\Debug\net6.0\refint\CG.Domain.dll
+C:\Users\rober\source\repos\CG\CG.Domain\obj\Debug\net6.0\CG.Domain.pdb
+C:\Users\rober\source\repos\CG\CG.Domain\obj\Debug\net6.0\ref\CG.Domain.dll
