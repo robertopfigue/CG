@@ -7,6 +7,7 @@ namespace CG.IoC
         public static void RegisterBindings(IServiceCollection services)
         {
             ConfigureBindingsServices.RegisterBindings(services);
+            ConfigureBindingsRepositories.RegisterBindings(services);
         }
     }
 }

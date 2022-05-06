@@ -6,12 +6,14 @@ namespace CG.Domain.Entities
     {
         public string? Nome { get; set; }
         public string? Email { get; set; }
+        public string? Telefone { get; set; }
+        public string? Nacionalidade { get; set; }
+        public string? Sexo { get; set; }
+        public string? EstadoCivil { get; set; }
         public DateTime DataNascimento { get; set; }
         public bool Ativo { get; set; }
+        public virtual Endereco? Endereco { get; set; }
 
-        public virtual List<Curso>? Cursos { get; set; }
-        public virtual List<Experiencia>? Experiencias { get; set; }
-        public virtual List<Habilidade>? Habilidades { get; set; }
-        public virtual List<Idioma>? Idiomas { get; set; }
+        public virtual Curriculo? Curriculo { get; set; }
     }
 }

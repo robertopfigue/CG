@@ -3,9 +3,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CG.Infra.Persistence
 {
-    public class CurriculoContext : DbContext
+    public class CgDbContext : DbContext
     {
         public DbSet<DadosPessoa> DadosPessoais { get; set; }
+        public DbSet<Endereco> Enderecos { get; set; }
         public DbSet<Curso> Cursos { get; set; }
         public DbSet<Idioma> Idiomas { get; set; }
         public DbSet<Habilidade> Habilidades { get; set; }
@@ -18,12 +19,12 @@ namespace CG.Infra.Persistence
             modelBuilder.ApplyConfigurationsFromAssembly(GetType().Assembly);
         }
 
-        public CurriculoContext()
+        public CgDbContext()
         {
             ChangeTracker.AutoDetectChangesEnabled = false;
         }
 
-        public CurriculoContext(DbContextOptions<CurriculoContext> options) : base(options)
+        public CgDbContext(DbContextOptions<CgDbContext> options) : base(options)
         {
             ChangeTracker.AutoDetectChangesEnabled = false;
         }

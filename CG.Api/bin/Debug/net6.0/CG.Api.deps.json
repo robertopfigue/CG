@@ -531,6 +531,9 @@
         }
       },
       "CG.Application/1.0.0": {
+        "dependencies": {
+          "CG.Infra": "1.0.0"
+        },
         "runtime": {
           "CG.Application.dll": {}
         }

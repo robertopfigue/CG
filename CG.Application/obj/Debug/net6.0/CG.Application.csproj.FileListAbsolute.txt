@@ -10,3 +10,8 @@ C:\Users\rober\source\repos\CG\CG.Application\obj\Debug\net6.0\CG.Application.dl
 C:\Users\rober\source\repos\CG\CG.Application\obj\Debug\net6.0\refint\CG.Application.dll
 C:\Users\rober\source\repos\CG\CG.Application\obj\Debug\net6.0\CG.Application.pdb
 C:\Users\rober\source\repos\CG\CG.Application\obj\Debug\net6.0\ref\CG.Application.dll
+C:\Users\rober\source\repos\CG\CG.Application\bin\Debug\net6.0\CG.Domain.dll
+C:\Users\rober\source\repos\CG\CG.Application\bin\Debug\net6.0\CG.Infra.dll
+C:\Users\rober\source\repos\CG\CG.Application\bin\Debug\net6.0\CG.Infra.pdb
+C:\Users\rober\source\repos\CG\CG.Application\bin\Debug\net6.0\CG.Domain.pdb
+C:\Users\rober\source\repos\CG\CG.Application\obj\Debug\net6.0\CG.Application.csproj.CopyComplete

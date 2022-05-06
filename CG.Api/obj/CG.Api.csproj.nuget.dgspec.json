@@ -109,7 +109,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\rober\\source\\repos\\CG\\CG.Infra\\CG.Infra.csproj": {
+                "projectPath": "C:\\Users\\rober\\source\\repos\\CG\\CG.Infra\\CG.Infra.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

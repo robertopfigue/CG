@@ -1,4 +1,4 @@
-﻿using CG.Application;
+﻿using CG.Application.Services;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace CG.IoC
@@ -8,6 +8,7 @@ namespace CG.IoC
         public static void RegisterBindings(IServiceCollection services)
         {
             services.AddScoped<DadosPessoaService>();
+            services.AddScoped<EnderecoService>();
         }
     }
 }

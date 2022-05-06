@@ -5,9 +5,9 @@ using Microsoft.Extensions.Configuration;
 
 namespace CG.Infra
 {
-    public class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<CurriculoContext>
+    public class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<CgDbContext>
     {
-        public CurriculoContext CreateDbContext(string[] args)
+        public CgDbContext CreateDbContext(string[] args)
         {
             var environmentName = Environment.GetEnvironmentVariable("ASPNETCPRE_ENVIROMENT");
             var fileName = Directory.GetCurrentDirectory() + $"/../CG.Api/appsettings.json";
@@ -16,11 +16,11 @@ namespace CG.Infra
                 .AddJsonFile(fileName)
                 .Build();
 
-            var builder = new DbContextOptionsBuilder<CurriculoContext>();
+            var builder = new DbContextOptionsBuilder<CgDbContext>();
             var connectionString = configuration.GetConnectionString("DefaultConnection");
             builder.UseSqlServer(connectionString);
 
-            return new CurriculoContext(builder.Options);
+            return new CgDbContext(builder.Options);
         }
     }
 }

@@ -2,11 +2,11 @@
 {
     public class BaseRepository
     {
-        protected readonly CurriculoContext DbContext;
+        protected readonly CgDbContext _context;
 
-        public BaseRepository(CurriculoContext dbContext)
+        public BaseRepository(CgDbContext context)
         {
-            DbContext = dbContext;
+            _context = context;
         }
     }
 }

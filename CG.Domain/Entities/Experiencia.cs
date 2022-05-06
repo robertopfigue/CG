@@ -12,6 +12,6 @@ namespace CG.Domain.Entities
         public bool Atual { get; set; }
         public bool Ativo { get; set; }
 
-        public virtual DadosPessoa DadosPessoa { get; set; }
+        public virtual Curriculo? Curriculo { get; set; }
     }
 }
